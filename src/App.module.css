@@ -1,0 +1,50 @@
+@import url(../src/App.module.css);
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Inter;
+    overflow-y: auto;
+    overflow-y: visible;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  background-color: bisque;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 2vh 4vw; 
+  box-sizing: border-box;
+}
+
+.imgWrapper{
+  display: flex;
+}
+
+.linksNavbar{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 1vw;
+  color: rgb(245, 164, 106);
+}
+
+.linksNavbar hr{
+  border-style: solid;
+  border-color: rgb(245, 164, 106);
+  height: 2vh;
+}
+
+.linksNavbar a{
+  text-decoration: none;
+  color: rgb(245, 164, 106);
+}
